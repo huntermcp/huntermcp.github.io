@@ -840,6 +840,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
+  /*background: #161415 url(../images/wallpaper-website-background-different-backgrounds-website-sphere-beautiful-background-web-wallpapers.jpg) no-repeat top center;*/
   background: #161415 url(../images/header-background.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -963,13 +964,14 @@ header .scrolldown a:hover {
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn {
+
   display: none;
 }
 
 ul#nav {
   min-height: 48px;
   width: auto;
-
+background-color: black;
   /* center align the menu */
   text-align: center;
 }
@@ -2341,12 +2343,3 @@ footer .social li:first-child {
  footer .social li { margin-left: 14px; }
 
 }
-
-
-
-
-
-
-
-
-
